@@ -83,8 +83,8 @@
             email, role,
             lastOpenFolder, workingDirectory
         }: UserSettingsProps) {
-            this.person = new Person({ name, gender, birthdate });
-            this.user = new User({ email, role });
+            this.person   = new Person({ name, gender, birthdate });
+            this.user     = new User({ email, role });
             this.settings = new Settings({ lastOpenFolder, workingDirectory })
         }
     }
