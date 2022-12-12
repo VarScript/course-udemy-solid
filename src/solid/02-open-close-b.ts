@@ -1,6 +1,6 @@
 // Hay que agregar la dependencia de axios ```yarn add axios```
 // import axios from 'axios';
-import { HttpClient  } from "./03-open-close-c";
+import { HttpClient  } from "./02-open-close-c";
 
 
 export class TodoService { 
